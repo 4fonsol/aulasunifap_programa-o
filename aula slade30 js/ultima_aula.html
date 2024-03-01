@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="preconnect" href="https://fonts.googleapis.com">
+    <link rel = 'preconnect' href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" >
+    <title>lista de tarefas</title>
+</head>
+<body> 
+    <div>
+    <div>
+        <h1>lista de tarefas</h1>
+<div>
+    <input type="text" id="taskinput"
+    placeholder="adicionar nova tarefa">
+    <button onclick="addtask()">adicionar</button>
+</div>
+     <ul id="tasklist"></ul>
+    </div>
+</div>
+
+<script>
+function addtask(){
+    let taskinput = document.getElementById
+    ('taskinput');
+    let tasklist= document.getElementById
+    ('taskinput');
+    if(taskinput.value.trim() !== ""){
+        let li = document.createElement('li')
+        let span = document.createElement('span')
+        let deletbutton = document.createElement
+        ('button')
+        let updatebutton = document.createElement
+        ('button')
+
+
+    }
+}
+
+</script>
+</body>
+</html>
